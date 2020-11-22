@@ -454,7 +454,7 @@
     margin: 0 auto;
   }
   .wrapper_body .body_content #home .block1 {
-    background: url("../img/home_bg1.jpg") center top no-repeat;
+    background: url("../images/home_bg1.jpg") center top no-repeat;
     transition: all 0.7s;
     -moz-transition: all 0.7s;
     -webkit-transition: all 0.7s;
@@ -4945,7 +4945,7 @@
       max-width: 732px;
     }
     header {
-      background: #ffffff;
+      background: #00a850;
     }
     header figure {
       padding: 13px 0 0 1%;

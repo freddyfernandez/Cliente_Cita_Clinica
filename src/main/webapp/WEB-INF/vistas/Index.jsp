@@ -86,10 +86,10 @@
         <ul id="menu">      
             <div class="row">
                 <form action="verlogin" class="col-6"> 
-                    <button type="submit" class="btn btn-warning">Inicia</button>                                                   
+                    <button type="submit" class="btn btn-warning">INGRESAR</button>                                                   
                 </form> 
                 <form action="verRegistro" class="col-6">
-                    <button type="submit"  class="btn btn-warning">Registrar</button>        	                                                   
+                    <button type="submit"  class="btn btn-warning">REGISTRAR</button>        	                                                   
                 </form>                     
             </div>    
         </ul>
@@ -295,14 +295,5 @@
 </footer>
 
 </body>
-<script src="/static/plugins/jquery/dist/jquery.js"></script>
-<script src="/static/plugins/jquery-ui/jquery-ui.min.js"></script>
-<script src="/static/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
-
-<script src="/static/js/main.js"></script>
-
-    <script src="/static/js/home.js"></script>
-
-
 </html>
     
