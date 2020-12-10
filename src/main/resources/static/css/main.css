@@ -350,7 +350,7 @@
   }
   
   header .doctors_head .form .form_field .btn_form {
-    background: #002d66;
+    background: #00a850;
     color: #00a850;
   }
   header figure {
@@ -379,7 +379,7 @@
     padding: 0 0 13px;
     width: 100%;
     top: 75px;
-    background: #002d66;
+    background: #00a850;
     text-align: center;
     display: none;
     z-index: 100;
@@ -447,7 +447,7 @@
   }
   .modal .modal-content .modal-header .close span {
     font-size: 48px;
-    color: #002d66;
+    color: #ffffff;
     font-weight: 400;
   }
   .wrapper_body .body_content {
@@ -517,7 +517,7 @@
     text-align: center;
   }
   .wrapper_body .body_content #home .block2 .right_side {
-    background: #003694;
+    background: #00a850;
     padding: 40px 0;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -581,7 +581,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: #db3c8e url("../images/bg_home3.png") center bottom no-repeat;
+    background: #00a850 url("../images/bg_home3.png") center bottom no-repeat;
     z-index: 0;
   }
   .wrapper_body .body_content #home .block3 .content_block3 {
@@ -628,7 +628,7 @@
     padding: 0;
     list-style: none;
     font-size: 22px;
-    color: #002d66;
+    color: #001736;
     font-family: 'Foco';
     line-height: 28px;
     padding-left: 100px;
@@ -657,7 +657,7 @@
     background: url("../images/home_bg4.jpg");
     background-position: center top;
     background-repeat: no-repeat;
-    color: #002d66;
+    color: #001736;
     font-family: 'Foco';
   }
   .wrapper_body .body_content #home .block4 .title {
@@ -693,7 +693,7 @@
     position: relative;
   }
   .wrapper_body .body_content #home .block4 .list .block4_list li a {
-    color: #002d66;
+    color: #00286d;
     text-decoration: none;
     line-height: 22px;
     padding-top: 7px;
@@ -711,7 +711,7 @@
   .wrapper_body .body_content #home .block4 .list .block4_list li:last-child {
     font-size: 18px;
     line-height: 45px;
-    border-top: 2px solid #002d66;
+    border-top: 2px solid #2e2e2e;
     margin-left: 0;
     padding-left: 58px;
     margin-top: 20px;
@@ -4453,7 +4453,7 @@
     padding-bottom: 150px;
   }
   #calificar_servicio .block3 .block_content .title {
-    color: #002d66;
+    color: #00a850;
     font-size: 35px;
     font-weight: 700;
     text-align: center;
@@ -4536,7 +4536,7 @@
     background: url("../images/nosotros_background.png") center 0 no-repeat;
   }
   #nosotros .block2 {
-    color: #002d66;
+    color: #00a850;
     font-size: 19px;
     font-family: 'Open Sans', sans-serif;
   }
@@ -4577,7 +4577,7 @@
     margin: 0 auto;
   }
   #frequently_asked .block1 .block_content .title {
-    color: #002d66;
+    color: #00a850;
     font-weight: 700;
     font-size: 40px;
     margin-top: 50px;
@@ -4602,7 +4602,7 @@
     height: 59px;
     line-height: 59px;
     background: #f3f3f3;
-    color: #002d66;
+    color: #00a850;
     font-size: 28px;
     font-family: 'Foco';
     padding-left: 21px;
@@ -4631,14 +4631,14 @@
   #frequently_asked .block2 .block_content .question_block .question_title {
     font-size: 19px;
     font-family: 'Open Sans', sans-serif;
-    color: #002d66;
+    color: #00a850;
     padding: 50px 0;
     font-weight: 700;
   }
   #frequently_asked .block2 .block_content .question_block .question_answer {
     line-height: 44px;
     font-size: 19px;
-    color: #002d66;
+    color: #00a850;
     text-align: justify;
   }
   
@@ -4768,7 +4768,7 @@
   
     #doctors .doctors_list .block .block_item .data_content .reservation .book_reservation.book_2 {
       background: #ffe845;
-      color: #002d66;
+      color: #00a850;
     }
     #calendar .days {
       width: 100%;
@@ -4945,7 +4945,7 @@
       max-width: 732px;
     }
     header {
-      background: #2A1D58 url("../images/header_background.png") top right no-repeat;
+      background: #00a850;
     }
     header figure {
       padding: 13px 0 0 1%;
@@ -4996,7 +4996,7 @@
     }
     .header_content ul li a {
       border: 0;
-      color: #002d66;
+      color: #00a850;
       font-size: 15px;
       font-family: 'Open Sans', sans-serif;
       font-weight: 700;
@@ -5069,7 +5069,7 @@
       bottom: 30px;
       left: 50%;
       margin-left: -16px;
-      background: url("../images/sprite.png") -91px 0 no-repeat;
+      background: url("../img/sprite.png") -91px 0 no-repeat;
     }
     .wrapper_body .body_content #home .block2 {
       overflow: hidden;
@@ -5154,7 +5154,7 @@
       height: auto;
     }
     .wrapper_body .body_content #home .block5 .block_content {
-      background: url("../images/bg_home5.png") 0 40px no-repeat;
+      background: url("../img/bg_home5.png") 0 40px no-repeat;
       height: 551px;
       width: 95%;
       max-width: 388px;
@@ -5883,7 +5883,7 @@
       height: auto;
     }
     .wrapper_body .body_content #home .block5 .block_content {
-      background: url("../images/bg_home5.png") center 40px no-repeat;
+      background: url("../img/bg_home5.png") center 40px no-repeat;
       max-width: 538px;
       padding-left: 0;
     }

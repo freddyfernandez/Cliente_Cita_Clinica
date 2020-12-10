@@ -9,6 +9,8 @@
     <title> Reservar Cita Médica - Clinica </title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">    
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/plugins/jquery-ui/themes/smoothness/jquery-ui.min.css">
 
     
 
@@ -70,9 +72,9 @@
     <header>
     <div class="header_content">
         <figure>
-            <a href="/"><img src="/images/logo.png"></a>
+            <a href="/"><img src="images/logo.png" class="img-fluid"></a>
             &nbsp;&nbsp;&nbsp;&nbsp;
-            <a style="color:#db3c8e; text-decoration:underline;cursor: pointer;"
+            <a style="color:#00a850; text-decoration:underline;cursor: pointer;"
                href="/teleorientacion/"
                title="Teleorientación">
             </a>
@@ -80,13 +82,16 @@
 
         <a href="#" title="" class="icon icon-menu-mobile"></a>
         <!--<a href="#" title="" class="icon icon-menu-mobile"></a>-->
-        <ul id="menu">
-	        <form action="verlogin">
-	        	<button type="submit" class="btn btn-primary">Inicia</button>
-	        </form> 
-	        <form action="verRegistro">
-	        	<button type="submit"  class="btn btn-primary">Registrar</button>        	
-	        </form>
+        
+        <ul id="menu">      
+            <div class="row">
+                <form action="verlogin" class="col-6"> 
+                    <button type="submit" class="btn btn-warning">INGRESAR</button>                                                   
+                </form> 
+                <form action="verRegistro" class="col-6">
+                    <button type="submit"  class="btn btn-warning">REGISTRAR</button>        	                                                   
+                </form>                     
+            </div>    
         </ul>
     </div>
 </header><!-- /header -->
@@ -151,7 +156,7 @@
                 <div class="text">
                     Nuestro objetivo es ayudar a la población peruana a encontrar un doctor y reservar citas ambulatorias con ellos mediante nuestras aplicaciones web y móvil.
                 </div>
-                <img src="/static/images/doctor_tv.png" alt="">
+                <img src="images/doctor_tv.png" alt="">
                 <ul class="help_list">
                     <li><span class="icon icon-lu"></span>Encuentra fácilmente un doctor cerca a ti.</li>
                     <li><span class="icon icon-cal"></span>Reserva tu cita y atiéndete cuando quieras.</li>
@@ -206,7 +211,7 @@
         </div>
         <div class="block5">
             <div class="block_image">
-                <img src="/static/images/mobile.png" alt="">
+                <img src="/images/mobile.png" alt="">
             </div>
             <div class="block_content">
                 <div class="title">
@@ -220,14 +225,14 @@
                 <div class="block_actions">
                     <!-- <a target="_blank" href="#"><img src="/static/images/get_appstore.png" alt=""></a>
                     -->
-                    <a target="_blank" href="https://play.google.com/store/apps/details?id=pe.innovati.doctavio"><img src="/static/images/get_googleplay.png" alt=""></a>
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=pe.innovati.doctavio"><img src="/images/get_googleplay.png" alt=""></a>
                 </div>
             </div>
         </div>
         <div class="block6">
             <div class="block_content">
                 <div class="image">
-                    <img src="/static/images/doctor_doctavio.png" alt="">
+                    <img src="/images/doctor_doctavio.png" alt="">
                 </div>
                 <div class="title">¿Eres un gran profesional <br>de la salud?
                 </div>
@@ -290,13 +295,5 @@
 </footer>
 
 </body>
-<script src="/static/plugins/jquery/dist/jquery.js"></script>
-<script src="/static/plugins/jquery-ui/jquery-ui.min.js"></script>
-<script src="/static/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
-
-<script src="/static/js/main.js"></script>
-
-    <script src="/static/js/home.js"></script>
-
-
 </html>
+    
