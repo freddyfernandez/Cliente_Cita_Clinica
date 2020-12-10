@@ -18,13 +18,20 @@
     <ul class="nav navbar-nav">
     	<li class="dropdown">
 	        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-	          Ver <b class="caret"></b>
+	          Ver Historial<b class="caret"></b>
 	        </a>
 	        <ul class="dropdown-menu">
-	           <li><a>Mis Citas</a></li>
-	            <li><a>Mi Historial Clinico</a></li>
+	           <li><a href="cargaCitas">Mis Citas</a></li>
+	          
 
 	        </ul>
+     	</li>
+     </ul>
+         <ul class="nav navbar-nav">
+    	<li class="dropdown">
+	        <a href="verRegistroCita" class="dropdown-toggle" >
+	          Realizar una Cita
+	        </a>
      	</li>
      </ul>
      

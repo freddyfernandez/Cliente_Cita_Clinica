@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title> Reservar Cita Médica - Doctavio </title>
+    <title> Reservar Cita Médica - Clinica </title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">    
     <link rel="stylesheet" href="css/main.css">
 
@@ -147,7 +147,7 @@
         <div class="block3">
             <div class="pink_bg"></div>
             <div class="content_block3">
-                <div class="title">Doctavio está para ayudarte</div>
+                <div class="title">Clinica está para ayudarte</div>
                 <div class="text">
                     Nuestro objetivo es ayudar a la población peruana a encontrar un doctor y reservar citas ambulatorias con ellos mediante nuestras aplicaciones web y móvil.
                 </div>
@@ -210,7 +210,7 @@
             </div>
             <div class="block_content">
                 <div class="title">
-                    Instala doctavio en tu celular
+                    Instala Clinica en tu celular
                 </div>
                 <ul class="mobile_list">
                     <li>Encuentra un doctor cerca de donde estás</li>

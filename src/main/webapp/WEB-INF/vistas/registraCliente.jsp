@@ -81,89 +81,61 @@ $('#id_form').bootstrapValidator({
                     message: 'El nombre es un campo obligatorio'
                 },
                 stringLength :{
-                	message:'El nombre es de 5 a 100 caracteres',
-                	min : 5,
+                	message:'Maximo 50 caracteres',
                 	max : 100
                 }
             }
         },
-        numHombres: {
-    		selector : '#id_num_hombres',
+        apellido: {
+    		selector : '#id_apellido',
             validators: {
                 notEmpty: {
-                    message: 'El número de hombres es un campo obligatorio'
+                    message: 'El apellido es un campo obligatorio'
                 },
-                lessThan: {
-	                value: 15,
-	                inclusive: true,
-	                message: 'La edad es menor a 15'
-	            },
-	            greaterThan: {
-	                value: 0,
-	                inclusive: true,
-	                message: 'La edad es mayor a 0'
-	            }
+                stringLength :{
+                	message:'Maximo 50 caracteres',
+                	max : 100
+                }
             }
         },
-        numMujeres: {
-    		selector : '#id_num_mujeres',
+        dni: {
+    		selector : '#id_dni',
             validators: {
             	notEmpty: {
-                    message: 'El número de mujeres es un campo obligatorio'
+                    message: 'El dni es un campo obligatorio'
                 },
-                lessThan: {
-	                value: 15,
-	                inclusive: true,
-	                message: 'La edad es menor a 15'
-	            },
-	            greaterThan: {
-	                value: 0,
-	                inclusive: true,
-	                message: 'La edad es mayor a 0'
-	            }
+				regexp :{
+					regexp: /^[0-9]{8}$/ ,
+                    message: 'El dni tiene 8 digitos'
+				}
+        
             }
         },
-        edadMaxima: {
-    		selector : '#id_maxima',
+        nrocelular: {
+    		selector : '#id_nrocelular',
             validators: {
             	notEmpty: {
-                    message: 'La edad máxima es un campo obligatorio'
+                    message: 'La nro celular un campo obligatorio'
                 },
-                lessThan: {
-	                value: 35,
-	                inclusive: true,
-	                message: 'La edad es menor a 35'
-	            },
-	            greaterThan: {
-	                value: 18,
-	                inclusive: true,
-	                message: 'La edad es mayor a 18'
-	            }
+				regexp :{
+					regexp: /^(([0-9]*)|([0-9]))$/ ,
+                    message: 'Solo Numeros'
+				}
             }
         },
-        edadMinima: {
-    		selector : '#id_minima',
+        login: {
+    		selector : '#id_login',
             validators: {
             	notEmpty: {
-                    message: 'La edad mínima es un campo obligatorio'
-                },
-                lessThan: {
-	                value: 35,
-	                inclusive: true,
-	                message: 'La edad es menor a 35'
-	            },
-	            greaterThan: {
-	                value: 18,
-	                inclusive: true,
-	                message: 'La edad es mayor a 18'
-	            }
+                    message: 'El usuario es campo obligatorio'
+                }
             }
         },
-        deporte: {
-    		selector : '#id_deporte',
+        password: {
+    		selector : '#id_password',
             validators: {
             	notEmpty: {
-                    message: 'El deporte un campo obligatorio'
+                    message: 'La constraseña es un campo obligatorio'
                 },
             }
         },
